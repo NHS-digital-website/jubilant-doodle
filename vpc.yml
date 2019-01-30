@@ -23,10 +23,10 @@ Parameters:
     Description: Region
     Type: String
   SubnetPrivateCidrBlocks:
-    Description: Comma-delimited list of three CIDR blocks for private subnets
+    Description: Comma-delimited list of two or three CIDR blocks for private subnets
     Type: CommaDelimitedList
   SubnetPublicCidrBlocks:
-    Description: Comma-delimited list of three CIDR blocks for public subnets
+    Description: Comma-delimited list of two or three CIDR blocks for public subnets
     Type: CommaDelimitedList
   WithInternetGateway:
     Description: Choose if you need InternetGateway attached to your VPC
