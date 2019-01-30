@@ -22,6 +22,9 @@ Parameters:
   Region:
     Description: Region
     Type: String
+    AllowedValues:
+      - eu-west-1
+      - eu-west-2
   SubnetPrivateCidrBlocks:
     Description: Comma-delimited list of two or three CIDR blocks for private subnets
     Type: CommaDelimitedList
